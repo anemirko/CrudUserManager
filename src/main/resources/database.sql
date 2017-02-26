@@ -7,7 +7,7 @@ CREATE TABLE `USER` (
   `isAdmin` bit(1) NOT NULL DEFAULT b'0',
   `createdDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=44 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 INSERT INTO USER (name,age,isAdmin) VALUES ('Алексей',42,1);
 INSERT INTO USER (name,age,isAdmin) VALUES ('Петя',16,0);
 INSERT INTO USER (name,age,isAdmin) VALUES ('Александр',43,1);
