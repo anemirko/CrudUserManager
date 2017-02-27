@@ -12,6 +12,7 @@
 					<tr>
 						<th>ID</th>
 						<th>Name</th>
+						<th>Age</th>
 						<th>isAdmin</th>
 						<th>Created date</th>
 						<th>&nbsp;</th>
@@ -23,6 +24,7 @@
 						<tr>
 							<td>${user.id}</td>
 							<td>${user.name}</td>
+							<td>${user.age}</td>
                             <td><input type="checkbox" disabled="disabled" name="admin" <c:if test="${user.admin}">checked</c:if>/></td>
 							<td>${user.createdDate}</td>
 							<td>
