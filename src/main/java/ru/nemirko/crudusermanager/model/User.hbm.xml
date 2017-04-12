@@ -14,7 +14,7 @@
         <property name="age">
             <column name="age" sql-type="int(11)"/>
         </property>
-        <property name="isAdmin">
+        <property name="admin">
             <column name="isAdmin" sql-type="bit(1)"/>
         </property>
         <property name="createdDate">
